@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data - large files
+data/raw/*.csv
+data/raw/*.zip
+*.h5
+*.hdf5
+
+# Models - large binary files
+results/models/*.pkl
+results/models/*.pth
+results/models/*.zip
+results/models/*.json
+
+# Logs
+*.log
+*.txt
+pipeline_output.log
+pipeline_output.txt
+kan_training_output.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docs directory (as requested)
+docs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large result files (keep CSVs but exclude large data)
+*.parquet
+*.feather
