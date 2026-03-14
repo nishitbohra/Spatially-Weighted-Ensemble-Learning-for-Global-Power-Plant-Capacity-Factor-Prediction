@@ -7,10 +7,6 @@
 
 A comprehensive machine learning research repository for analyzing global power plant infrastructure, cap---
 
-## Summary & Co#### 2.#### 3. Temporal Analysis
-- Multi-year trends (2013-2017) for 17,577 plantsethodological Innovation
-- Novel spatially-weighted ensemble with GWR-based adaptive weightinglusions
-
 This project delivers a machine learning pipeline for global power plant analysis with comprehensive statistical validation and novel methodological contributions.
 
 ### Key Achievements
@@ -654,20 +650,6 @@ All analyses are deterministic and reproducible:
 - Docstrings for all class methods
 - Type hints where applicable
 - Modular and reusable components
-
-## Citation
-
-If you use this code or methodology in your research, please cite:
-
-```bibtex
-@misc{global_power_plant_ml_2026,
-  title={Geospatial Machine Learning for Global Power Plant Efficiency and Infrastructure Inequality},
-  author={[Your Name]},
-  year={2026},
-  publisher={GitHub},
-  howpublished={\\url{https://github.com/yourusername/global-power-plant-ml}}
-}
-```
 
 ## License
 
